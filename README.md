@@ -7,11 +7,4 @@ This project investigates **occlusion-robust** and **amodal object detection** m
 
 In real-world environments, objects are frequently obstructed by other objects. Traditional object detection and instance segmentation models often struggle under these conditions. This project focuses on improving robustness under occlusion and exploring amodal reasoning, where the model predicts the full extent of an object—even when parts are not visible.
 
-As part of this research effort, multiple open-source amodal segmentation frameworks were studied and evaluated using real-world datasets to develop a functional and reproducible system. The two primary codebases explored include:
-
-- **:contentReference[oaicite:0]{index=0}** – *Amodal Segmentation by Synthesizing Wholes*  
-- **:contentReference[oaicite:1]{index=1} (BMVC 2024)** – A sequential learning approach to cumulative occlusion reasoning
-
-The second framework was introduced at **:contentReference[oaicite:2]{index=2}** (British Machine Vision Conference 2024).
-
-Through hands-on experimentation with these repositories, this project evaluates architectural approaches, training strategies, and dataset handling techniques for improving amodal segmentation performance under realistic occlusion scenarios.
+As part of this research effort, multiple open-source amodal segmentation frameworks were studied and evaluated using real-world datasets to develop a functional and reproducible system. The two primary codebases explored were [pix2gestalt: Amodal Segmentation by Synthesizing Wholes](https://github.com/cvlab-columbia/pix2gestalt) and [Sequential Amodal Segmentation via Cumulative Occlusion Learning (BMVC2024)](https://github.com/saraao/SAS)
